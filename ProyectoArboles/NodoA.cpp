@@ -22,6 +22,7 @@ NodoA::NodoA(int _dato){
 int NodoA::getDato(){
 		return this ->dato;
 	}
+
 void NodoA::setDato(int _dato){
 	this ->dato = _dato;
 
@@ -30,6 +31,7 @@ void NodoA::setDato(int _dato){
 NodoA *&NodoA::getIzq(){
 	return this -> izq;
 }
+
 void NodoA::setIzq(NodoA * _ptr){
 		this ->izq = _ptr;
 }
@@ -37,6 +39,7 @@ void NodoA::setIzq(NodoA * _ptr){
 NodoA *&NodoA::getDer(){
 		return this -> der;
 }
+
 void NodoA::setDer(NodoA * _ptr){
 		this->der = _ptr;
 }
