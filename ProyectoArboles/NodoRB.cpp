@@ -52,3 +52,11 @@ NodoRB *&NodoRB::getDer(){
 void NodoRB::setDer(NodoRB * _ptr){
 	this->Der = _ptr;
 }
+
+NodoRB *&NodoRB::getPar(){
+	return this-> Par;
+}
+
+void NodoRB::setPar(NodoRB * _ptr){
+	this->Par = _ptr;
+}

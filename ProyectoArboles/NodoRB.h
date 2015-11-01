@@ -6,6 +6,7 @@ private:
 	int dato;
 	NodoRB * Izq;
 	NodoRB * Der;
+	NodoRB * Par;
 
 public:
 	NodoRB(void);
@@ -24,6 +25,9 @@ public:
 
 	NodoRB *&getDer();
 	void setDer(NodoRB *);
+
+	NodoRB *&getPar();
+	void setPar(NodoRB *);
 
 };
 
