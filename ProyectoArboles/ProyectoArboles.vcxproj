@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArbolBinario.h" />
+    <ClInclude Include="ArbolRB.h" />
     <ClInclude Include="NodoA.h" />
     <ClInclude Include="NodoRB.h" />
     <ClInclude Include="stdafx.h" />
@@ -89,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArbolBinario.cpp" />
+    <ClCompile Include="ArbolRB.cpp" />
     <ClCompile Include="NodoA.cpp" />
     <ClCompile Include="NodoRB.cpp" />
     <ClCompile Include="ProyectoArboles.cpp" />
